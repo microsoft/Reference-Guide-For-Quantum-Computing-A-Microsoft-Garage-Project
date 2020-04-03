@@ -1,4 +1,4 @@
-### Entanglement
+## 1.3 Entanglement
 
 * [Bell states]()
 * [Entanglement]()
@@ -10,6 +10,19 @@
     * [Q# exercise: Superdense Coding]()
     * [Quirk]()
 
+### Bell states
+
+In a two-qubit state, there are a set of special states called the Bell states, named after John S. Bell. Bell
+states are formed with a pair of qubits as follows
+
+|휑휑±�=|^01 ⟩±|^10 ⟩
+√^2
+and |휙휙±�=|^00 ⟩±|^11 ⟩
+√^2
+These four states each is a superposition of two basis states with equal probability. Within a Bell
+state, the first qubits between the two basis states are different and the second qubits between the two
+basis states are also different. For example, in |휑휑+⟩ the first qubit in |01⟩ is 0 but the first qubit in |10⟩ is 1. The second qubits in them also differ. Check the other three Bell states as an exercise. This gives the
+Bell states a special property.
 
 Take |휙휙+⟩ as an example, upon measuring the first qubit, one obtains two possible results:
 
