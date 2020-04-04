@@ -15,6 +15,8 @@ or "green", is a flipped coin "tail" or "head", etc. A state of a system does no
 But these examples are chosen conveniently to be binary because historically computers are built on
 binary systems. Mathematically, these states can be represented with two numbers: 0 and 1.
 
+![Figure 1.1 states](states.png)
+
 We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - Dirac notation_ in section
 1.2.4). With two numbers, one can write the two states using two basis vectors as
 

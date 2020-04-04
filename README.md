@@ -101,7 +101,7 @@ Looking Ahead
 
 **Kitty Yeung, Ravindra Ramouthar, Alex Talarico, Delbert Murphy**
 
-# 1.0 BACKGROUND
+## 1.0 BACKGROUND
 
 Now two decades into the new millennium, the field of quantum computing has developed
 significantly at an industrial scale over the recent years and made tremendous progress in hardware and
@@ -227,8 +227,8 @@ At the time of this writing, nearly 20 years after the NMR experiments, we have 
 companies heavily invested in the development and promotion of commercially available quantum
 computing hardware, luring software developers with the promise to most efficiently compute quantum
 circuits and algorithms. Companies across the board are periodically joining the quantum race, as
-Honeywell recently announced its own quantum computing program for niche industries (see Investing
-in Quantum Computing – The TQD Guide).
+Honeywell recently announced its own quantum computing program for niche industries (see [Investing
+in Quantum Computing – The TQD Guide](https://thequantumdaily.com/2020/01/13/investing-in-quantum-computing-the-tqd-guide/)).
 
 Not all quantum computers are created equal, as you might expect, especially in such a fast-paced
 landscape. Some manufacturers, namely IBM and Rigetti, claim their systems are truly universal quantum
