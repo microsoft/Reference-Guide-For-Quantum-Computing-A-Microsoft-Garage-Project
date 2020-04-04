@@ -200,8 +200,8 @@ would call computers or new devices at all. Remarkably, it all began with physic
 mathematics and biochemistry equipment for curiosity's sake. "It was not motivated in any way by making
 better computers," Neil Gershenfeld, director of MIT's Center for Bits and Atoms and a member of one of
 the two teams that first experimentally realized quantum algorithms says. "It was understanding whether
-the universe computes, and how the universe computes. (Quote from The Unlikely Origins of the First
-Quantum Computer)"
+the universe computes, and how the universe computes. (Quote from [The Unlikely Origins of the First
+Quantum Computer](https://gizmodo.com/the-unlikely-origins-of-the-first-quantum-computer-1831054476))"
 
 Several independent groups realized that the medical and biochemistry industry had long been
 using a 'quantum computer' in research: Nuclear Magnetic Resonance (NMR) spectrometers. This is the
