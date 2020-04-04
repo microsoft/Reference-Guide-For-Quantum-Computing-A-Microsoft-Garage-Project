@@ -22,9 +22,10 @@ We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - 
 
 ![equation](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
-```
+![\lvert 0 \rangle =\binom{1}{0}](https://latex.codecogs.com/gif.latex?%5Clvert%200%20%5Crangle%20%3D%5Cbinom%7B1%7D%7B0%7D)
 
-![equation](|0⟩ = $\begin{bmatrix} 1 \\ 0 \end{bmatrix}$)
+```
+![\lvert 0 \rangle =\binom{1}{0}](https://latex.codecogs.com/gif.latex?%5Clvert%200%20%5Crangle%20%3D%5Cbinom%7B1%7D%7B0%7D)
 
 |1⟩ = $\begin{bmatrix} 0 \\ 1 \end{bmatrix}$
 ```
