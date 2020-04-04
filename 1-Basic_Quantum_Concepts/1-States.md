@@ -43,12 +43,9 @@ We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - 
 ```
 |0⟩ = $\begin{bmatrix} 1 \\ 0 \end{bmatrix}$
 
-```
 |1⟩ = $\begin{bmatrix} 0 \\ 1 \end{bmatrix}$
+```
 
-```
-�. eq. (1.1)
-```
 This is the definition of |0⟩ and |1⟩ states. Note that the 0 and 1 in | ⟩ have a different meaning from the
 ones in the vectors. We could give non-numerical labels to the states, such as |푎푎⟩ , |휓휓⟩, |푓푓푓푓푓푓푓푓푓푓푓푓푓푓푓푓⟩, etc.
 
