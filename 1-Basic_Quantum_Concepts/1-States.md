@@ -20,9 +20,7 @@ binary systems. Mathematically, these states can be represented with two numbers
 We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - Dirac notation_ in section
 1.2.4). With two numbers, one can write the two states using two [basis vectors](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) as
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
-
-![equation](|0⟩ = $\begin{bmatrix} 1 \\ 0 \end{bmatrix}$)
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]()
 
 ```
 
