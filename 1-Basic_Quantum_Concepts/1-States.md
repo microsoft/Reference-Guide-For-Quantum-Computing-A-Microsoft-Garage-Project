@@ -22,13 +22,7 @@ We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - 
 
 ![equation](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
-![\lvert 0 \rangle =\binom{1}{0}](https://latex.codecogs.com/gif.latex?%5Clvert%200%20%5Crangle%20%3D%5Cbinom%7B1%7D%7B0%7D)
-
-```
-![\lvert 0 \rangle =\binom{1}{0}](https://latex.codecogs.com/gif.latex?%5Clvert%200%20%5Crangle%20%3D%5Cbinom%7B1%7D%7B0%7D)
-
-|1⟩ = $\begin{bmatrix} 0 \\ 1 \end{bmatrix}$
-```
+![\lvert 0 \rangle =\binom{1}{0}](https://latex.codecogs.com/gif.latex?%5Clvert%200%20%5Crangle%20%3D%5Cbinom%7B1%7D%7B0%7D),![\lvert 1 \rangle =\binom{0}{1}](https://latex.codecogs.com/gif.latex?%5Clvert%201%20%5Crangle%20%3D%5Cbinom%7B0%7D%7B1%7D)
 
 This is the definition of |0⟩ and |1⟩ states. Note that the 0 and 1 in | ⟩ have a different meaning from the
 ones in the vectors. We could give non-numerical labels to the states, such as |푎푎⟩ , |휓휓⟩, |푓푓푓푓푓푓푓푓푓푓푓푓푓푓푓푓⟩, etc.
