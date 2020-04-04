@@ -18,7 +18,7 @@ binary systems. Mathematically, these states can be represented with two numbers
 ![Figure 1.1 states](states.png)
 
 We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - Dirac notation_ in section
-1.2.4). With two numbers, one can write the two states using two basis vectors as
+1.2.4). With two numbers, one can write the two states using two [basis vectors](https://en.wikipedia.org/wiki/Basis_(linear_algebra)) as
 
 ```
 |0⟩ = �^1
