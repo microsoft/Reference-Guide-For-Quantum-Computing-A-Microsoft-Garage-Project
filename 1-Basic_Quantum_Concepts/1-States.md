@@ -49,11 +49,11 @@ Math insert - Tensor product----------------------------------------------------
 How does tensor product ⊗ work?
 ```
 
->![\binom{x_{0}}{x_{1}} \otimes \binom{y_{0}}{y_{1}} = \binom{x_{0} \binom{y_{0}}{y_{1}}}{x_{1} \binom{y_{0}}{y_{1}}} = \begin{pmatrix} x_{0}y_{0}\\x_{0}y_{1}\\x_{1}y_{0}\\x_{1}y_{1} \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Cbinom%7Bx_%7B0%7D%7D%7Bx_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%20%3D%20%5Cbinom%7Bx_%7B0%7D%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%7D%7Bx_%7B1%7D%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20x_%7B0%7Dy_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B1%7D%20%5Cend%7Bpmatrix%7D)
+![\binom{x_{0}}{x_{1}} \otimes \binom{y_{0}}{y_{1}} = \binom{x_{0} \binom{y_{0}}{y_{1}}}{x_{1} \binom{y_{0}}{y_{1}}} = \begin{pmatrix} x_{0}y_{0}\\x_{0}y_{1}\\x_{1}y_{0}\\x_{1}y_{1} \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Cbinom%7Bx_%7B0%7D%7D%7Bx_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%20%3D%20%5Cbinom%7Bx_%7B0%7D%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%7D%7Bx_%7B1%7D%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20x_%7B0%7Dy_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B1%7D%20%5Cend%7Bpmatrix%7D)
 
-
->and
-
+```
+and
+```
 
 #### �
 
