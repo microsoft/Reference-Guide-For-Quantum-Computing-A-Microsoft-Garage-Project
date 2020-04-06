@@ -23,7 +23,7 @@ We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - 
 ![\lvert 0 \rangle =\binom{1}{0}](https://latex.codecogs.com/gif.latex?%5Clvert%200%20%5Crangle%20%3D%5Cbinom%7B1%7D%7B0%7D) , ![\lvert 1 \rangle =\binom{0}{1}](https://latex.codecogs.com/gif.latex?%5Clvert%201%20%5Crangle%20%3D%5Cbinom%7B0%7D%7B1%7D) . 
 
 This is the definition of |0⟩ and |1⟩ states. Note that the 0 and 1 in | ⟩ have a different meaning from the
-ones in the vectors. We could give non-numerical labels to the states, such as ![|a⟩](https://latex.codecogs.com/gif.latex?%5Clvert%20%5Calpha%20%5Crangle) , ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle), ![|function⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%24function%24%20%5Crangle%24), etc.
+ones in the vectors. We could give non-numerical labels to the states, such as ![|a⟩](https://latex.codecogs.com/gif.latex?%5Clvert%20%5Calpha%20%5Crangle) , ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle), ![\lvert $function$ \rangle](https://latex.codecogs.com/gif.latex?%5Clvert%20%24function%24%20%5Crangle), etc.
 
 ### Classical bits
 
