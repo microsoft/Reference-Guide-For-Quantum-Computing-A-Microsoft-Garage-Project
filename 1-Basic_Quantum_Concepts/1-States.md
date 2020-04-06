@@ -27,7 +27,7 @@ ones in the vectors. We could give non-numerical labels to the states, such as !
 
 ### Classical bits
 
-|0⟩ and |1⟩ states above are two single classical bits. We can represent multi-bit states with vectors as well. Multi-bit states are tensor products of single bits. For example, state |00⟩ has two bits, both being 0. We obtain |00⟩ by doing a tensor product of two |0⟩ states, denoted as |0⟩⊗|0⟩ (see how to do tensor product in _Math insert - Tensor product_ ). This yields
+|0⟩ and |1⟩ states above are two single classical bits. We can represent multi-bit states with vectors as well. Multi-bit states are [Kronecker products](https://en.wikipedia.org/wiki/Kronecker_product) of single bits. For example, state |00⟩ has two bits, both being 0. We obtain |00⟩ by doing a Kronecker product of two |0⟩ states, denoted as |0⟩⊗|0⟩ (see how to do Kronecker product in _Math insert - Kronecker product_ ). This yields
 
 ![\lvert 00 \rangle = \binom{1}{0} \otimes \binom{1}{0}=\begin{pmatrix} 1\\0\\0\\0 \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Clvert%2000%20%5Crangle%20%3D%20%5Cbinom%7B1%7D%7B0%7D%20%5Cotimes%20%5Cbinom%7B1%7D%7B0%7D%3D%5Cbegin%7Bpmatrix%7D%201%5C%5C0%5C%5C0%5C%5C0%20%5Cend%7Bpmatrix%7D) .
 
@@ -44,115 +44,26 @@ As can be seen, a complete set of two bits is represented with four basis vector
 ![Figure 1.1.2 states](multiple qubits.png)
 
 ```
-Math insert - Tensor product----------------------------------------------------------------------------
+Math insert - Kronecker product----------------------------------------------------------------------------
 
-How does tensor product ⊗ work?
+How does Kronecker product ⊗ work?
 ```
 
 ![\binom{x_{0}}{x_{1}} \otimes \binom{y_{0}}{y_{1}} = \binom{x_{0} \binom{y_{0}}{y_{1}}}{x_{1} \binom{y_{0}}{y_{1}}} = \begin{pmatrix} x_{0}y_{0}\\x_{0}y_{1}\\x_{1}y_{0}\\x_{1}y_{1} \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Cbinom%7Bx_%7B0%7D%7D%7Bx_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%20%3D%20%5Cbinom%7Bx_%7B0%7D%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%7D%7Bx_%7B1%7D%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20x_%7B0%7Dy_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B1%7D%20%5Cend%7Bpmatrix%7D)
 
+
 ```
 and
 ```
-
-#### �
-
-#### 푥푥 0
-
-#### 푥푥 1 �⊗^ �
-
-#### 푦푦 0
-
-#### 푦푦 1 �⊗^ �
-
-#### 푧푧 0
-
-#### 푧푧 1 �=
-
-#### ⎝
-
-#### ⎜
-
-#### ⎜
-
-#### ⎜
-
-#### ⎜
-
-#### ⎛
-
-#### 푥푥 0 푦푦 0 푧푧 0
-
-#### 푥푥 0 푦푦 0 푧푧 1
-
-#### 푥푥 0 푦푦 1 푧푧 0
-
-#### 푥푥 0 푦푦 1 푧푧 1
-
-#### 푥푥 1 푦푦 0 푧푧 0
-
-#### 푥푥 1 푦푦 0 푧푧 1
-
-#### 푥푥 1 푦푦 1 푧푧 0
-
-#### 푥푥 1 푦푦 1 푧푧 1 ⎠
-
-#### ⎟
-
-#### ⎟
-
-#### ⎟
-
-#### ⎟
-
-#### ⎞
+![\binom{x_{0}}{x_{1}} \otimes \binom{y_{0}}{y_{1}} \otimes \binom{z_{0}}{z_{1}} = \begin{pmatrix} x_{0}y_{0}z_{0}\\x_{0}y_{0}z_{1}\\x_{0}y_{1}z_{0}\\x_{0}y_{1}z_{1}\\x_{1}y_{0}z_{0}\\x_{1}y_{0}z_{1}\\x_{1}y_{1}z_{0}\\x_{1}y_{1}z_{1} \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Cbinom%7Bx_%7B0%7D%7D%7Bx_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7Bz_%7B0%7D%7D%7Bz_%7B1%7D%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20x_%7B0%7Dy_%7B0%7Dz_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B0%7Dz_%7B1%7D%5C%5Cx_%7B0%7Dy_%7B1%7Dz_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B1%7Dz_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B0%7Dz_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B0%7Dz_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B1%7Dz_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B1%7Dz_%7B1%7D%20%5Cend%7Bpmatrix%7D)
 
 ```
 and so on.
-```
-```
+
 For example, the number 4 can be represented with a three-bit string 100.
 We can write
 ```
-#### |4⟩= | 100 ⟩= �^0
 
-#### 1
-
-#### �⊗�^1
-
-#### 0
-
-#### �⊗�^1
-
-#### 0
-
-#### �=
-
-#### ⎝
-
-#### ⎜
-
-#### ⎜
-
-#### ⎜
-
-#### ⎜
-
-#### ⎛
-
-#### 0 0 0 0 1 0 0
-
-#### 0 ⎠
-
-#### ⎟
-
-#### ⎟
-
-#### ⎟
-
-#### ⎟
-
-#### ⎞
 
 ### Quantum bits – qubits
 
