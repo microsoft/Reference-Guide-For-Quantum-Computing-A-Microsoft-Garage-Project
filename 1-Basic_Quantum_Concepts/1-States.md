@@ -23,108 +23,23 @@ We denote a state with symbol | ⟩ (pronounced as "ket"; see _Physics insert - 
 ![\lvert 0 \rangle =\binom{1}{0}](https://latex.codecogs.com/gif.latex?%5Clvert%200%20%5Crangle%20%3D%5Cbinom%7B1%7D%7B0%7D) , ![\lvert 1 \rangle =\binom{0}{1}](https://latex.codecogs.com/gif.latex?%5Clvert%201%20%5Crangle%20%3D%5Cbinom%7B0%7D%7B1%7D) . 
 
 This is the definition of |0⟩ and |1⟩ states. Note that the 0 and 1 in | ⟩ have a different meaning from the
-ones in the vectors. We could give non-numerical labels to the states, such as ![|a⟩](https://latex.codecogs.com/gif.latex?%5Clvert%20%5Calpha%20%5Crangle) , ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle), ![|123⟩](https://latex.codecogs.com/gif.latex?%5Clvert%20123%20%5Crangle), etc.
+ones in the vectors. We could give non-numerical labels to the states, such as ![|a⟩](https://latex.codecogs.com/gif.latex?%5Clvert%20%5Calpha%20%5Crangle) , ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle), etc.
 
 ### Classical bits
 
-|0⟩ and |1⟩ states above are two single classical bits. We can represent multi-bit states with vectors as
-well. Multi-bit states are tensor products of single bits. For example, state |00⟩ has two bits, both being
+|0⟩ and |1⟩ states above are two single classical bits. We can represent multi-bit states with vectors as well. Multi-bit states are tensor products of single bits. For example, state |00⟩ has two bits, both being 0. We obtain |00⟩ by doing a tensor product of two |0⟩ states, denoted as |0⟩⊗|0⟩ (see how to do tensor product in _Math insert - Tensor product_ ). This yields
 
+![\lvert 00 \rangle = \binom{1}{0} \otimes \binom{1}{0}=\begin{pmatrix} 1\\0\\0\\0 \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Clvert%2000%20%5Crangle%20%3D%20%5Cbinom%7B1%7D%7B0%7D%20%5Cotimes%20%5Cbinom%7B1%7D%7B0%7D%3D%5Cbegin%7Bpmatrix%7D%201%5C%5C0%5C%5C0%5C%5C0%20%5Cend%7Bpmatrix%7D) .
 
-0. We obtain |00⟩ by doing a tensor product of two |0⟩ states, denoted as |0⟩⊗|0⟩ (see how to do tensor
-product in _Math insert - Tensor product_ ). This yields
-
-#### |00⟩= �^1
-
-#### 0
-
-#### �⊗�^1
-
-#### 0
-
-#### �= �
-
-#### 1
-
-#### 0
-
-#### 0
-
-#### 0
-
-```
-�. eq. (1.2)
-```
 Similarly,
 
-#### |01⟩= �^1
+![\lvert 01 \rangle = \binom{1}{0} \otimes \binom{0}{1}=\begin{pmatrix} 0\\1\\0\\0 \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Clvert%2001%20%5Crangle%20%3D%20%5Cbinom%7B1%7D%7B0%7D%20%5Cotimes%20%5Cbinom%7B0%7D%7B1%7D%3D%5Cbegin%7Bpmatrix%7D%200%5C%5C1%5C%5C0%5C%5C0%20%5Cend%7Bpmatrix%7D) ,
 
-#### 0
+![\lvert 10 \rangle = \binom{0}{1} \otimes \binom{1}{0}=\begin{pmatrix} 0\\0\\1\\0 \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Clvert%2010%20%5Crangle%20%3D%20%5Cbinom%7B0%7D%7B1%7D%20%5Cotimes%20%5Cbinom%7B1%7D%7B0%7D%3D%5Cbegin%7Bpmatrix%7D%200%5C%5C0%5C%5C1%5C%5C0%20%5Cend%7Bpmatrix%7D) ,
 
-#### �⊗�^0
+![\lvert 11 \rangle = \binom{0}{1} \otimes \binom{0}{1}=\begin{pmatrix} 0\\0\\0\\1 \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Clvert%2011%20%5Crangle%20%3D%20%5Cbinom%7B0%7D%7B1%7D%20%5Cotimes%20%5Cbinom%7B0%7D%7B1%7D%3D%5Cbegin%7Bpmatrix%7D%200%5C%5C0%5C%5C0%5C%5C1%20%5Cend%7Bpmatrix%7D) .
 
-#### 1
-
-#### �= �
-
-#### 0
-
-#### 1
-
-#### 0
-
-#### 0
-
-```
-� , eq. (1.3)
-```
-#### |10⟩= �^0
-
-#### 1
-
-#### �⊗�^1
-
-#### 0
-
-#### �= �
-
-#### 0
-
-#### 0
-
-#### 1
-
-#### 0
-
-```
-� , eq. (1.4)
-```
-```
-and
-```
-#### |11⟩= �^0
-
-#### 1
-
-#### �⊗�^0
-
-#### 1
-
-#### �= �
-
-#### 0
-
-#### 0
-
-#### 0
-
-#### 1
-
-```
-�. eq. (1.5)
-```
-As can be seen, a complete set of two bits is represented with four basis vectors, each with four elements.
-When a system has N bits, we will need 2N basis vectors each with 2N elements to describe it.
+As can be seen, a complete set of two bits is represented with four basis vectors, each with four elements. When a system has N bits, we will need 2N basis vectors each with 2N elements to describe it.
 
 ```
 Math insert - Tensor product----------------------------------------------------------------------------
