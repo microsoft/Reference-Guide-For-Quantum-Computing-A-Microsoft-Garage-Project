@@ -41,7 +41,8 @@ Similarly,
 
 As can be seen, a complete set of two bits is represented with four basis vectors, each with four elements. When a system has N bits, we will need 2N basis vectors each with 2N elements to describe it.
 
-![Figure 1.1.2 states](multiple qubits.png)
+![Figure 1.1.2 states](multiple_qubits.png)
+
 
 ```
 Math insert - Kronecker product----------------------------------------------------------------------------
@@ -55,7 +56,7 @@ How does Kronecker product ⊗ work?
 ```
 and
 ```
-![\binom{x_{0}}{x_{1}} \otimes \binom{y_{0}}{y_{1}} \otimes \binom{z_{0}}{z_{1}} = \begin{pmatrix} x_{0}y_{0}z_{0}\\x_{0}y_{0}z_{1}\\x_{0}y_{1}z_{0}\\x_{0}y_{1}z_{1}\\x_{1}y_{0}z_{0}\\x_{1}y_{0}z_{1}\\x_{1}y_{1}z_{0}\\x_{1}y_{1}z_{1} \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Cbinom%7Bx_%7B0%7D%7D%7Bx_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7Bz_%7B0%7D%7D%7Bz_%7B1%7D%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20x_%7B0%7Dy_%7B0%7Dz_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B0%7Dz_%7B1%7D%5C%5Cx_%7B0%7Dy_%7B1%7Dz_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B1%7Dz_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B0%7Dz_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B0%7Dz_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B1%7Dz_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B1%7Dz_%7B1%7D%20%5Cend%7Bpmatrix%7D)
+![\binom{x_{0}}{x_{1}} \otimes \binom{y_{0}}{y_{1}} \otimes \binom{z_{0}}{z_{1}} = \begin{pmatrix} x_{0}y_{0}z_{0}\\x_{0}y_{0}z_{1}\\x_{0}y_{1}z_{0}\\x_{0}y_{1}z_{1}\\x_{1}y_{0}z_{0}\\x_{1}y_{0}z_{1}\\x_{1}y_{1}z_{0}\\x_{1}y_{1}z_{1} \end{pmatrix}](https://latex.codecogs.com/gif.latex?%5Cbinom%7Bx_%7B0%7D%7D%7Bx_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7By_%7B0%7D%7D%7By_%7B1%7D%7D%20%5Cotimes%20%5Cbinom%7Bz_%7B0%7D%7D%7Bz_%7B1%7D%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20x_%7B0%7Dy_%7B0%7Dz_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B0%7Dz_%7B1%7D%5C%5Cx_%7B0%7Dy_%7B1%7Dz_%7B0%7D%5C%5Cx_%7B0%7Dy_%7B1%7Dz_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B0%7Dz_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B0%7Dz_%7B1%7D%5C%5Cx_%7B1%7Dy_%7B1%7Dz_%7B0%7D%5C%5Cx_%7B1%7Dy_%7B1%7Dz_%7B1%7D%20%5Cend%7Bpmatrix%7D) 
 
 ```
 and so on.
