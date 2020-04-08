@@ -49,17 +49,11 @@ As can be seen, a complete set of two bits is represented with four basis vector
 ### Quantum bits – qubits
 
 It turns out that |0⟩ and |1⟩ are just two special cases in quantum computing. Generally, when there is
-one qubit, the system can be in a state |휓휓⟩ that has some portions of both |0⟩ and |1⟩ states in it.
-Mathematically, |휓휓⟩ is a linear combination or **superposition** of |0⟩ and |1⟩, i.e.
+one qubit, the system can be in a state ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle) that has some portions of both |0⟩ and |1⟩ states in it.
+Mathematically, ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle) is a linear combination or **superposition** of |0⟩ and |1⟩, i.e.
 
-```
-|휓휓⟩ = �
-```
-#### 푎푎
+![]()
 
-```
-푏푏�=푎푎|0⟩+ 푏푏|1⟩ , eq. (1.6)^
-```
 where 푎푎 and 푏푏 are two constants and can be complex numbers (see _Math insert – complex numbers_ ). 푎푎
 and 푏푏 are essentially describing how much of |0⟩ and |1⟩ are in the system. They are the "weights" and in
 fact amplitudes (see "wavefunction") of the |0⟩ and |1⟩ states. Their magnitude squared, |푎푎|^2 and |푏푏|^2 ,
