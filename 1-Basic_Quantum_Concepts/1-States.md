@@ -52,254 +52,61 @@ It turns out that |0⟩ and |1⟩ are just two special cases in quantum computin
 one qubit, the system can be in a state ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle) that has some portions of both |0⟩ and |1⟩ states in it.
 Mathematically, ![|Psi⟩](https://latex.codecogs.com/gif.latex?%24%5Clvert%20%5CPsi%20%5Crangle) is a linear combination or **superposition** of |0⟩ and |1⟩, i.e.
 
-![]()
+![\lvert \Psi  \rangle = \binom{a}{b} = a \lvert 0 \rangle + b \lvert 1 \rangle](https://latex.codecogs.com/gif.latex?%5Clvert%20%5CPsi%20%5Crangle%20%3D%20%5Cbinom%7Ba%7D%7Bb%7D%20%3D%20a%20%5Clvert%200%20%5Crangle%20&plus;%20b%20%5Clvert%201%20%5Crangle) , 
 
-where 푎푎 and 푏푏 are two constants and can be complex numbers (see _Math insert – complex numbers_ ). 푎푎
-and 푏푏 are essentially describing how much of |0⟩ and |1⟩ are in the system. They are the "weights" and in
-fact amplitudes (see "wavefunction") of the |0⟩ and |1⟩ states. Their magnitude squared, |푎푎|^2 and |푏푏|^2 ,
-give the probabilities of finding the system in |0⟩ and |1⟩, respectively. Therefore |푎푎|^2 and |푏푏|^2 can be
-anything as long as the total probably sums up to 1, that is |푎푎|^2 + |푏푏|^2 = 1. This is referred to as the
+where ![a](https://latex.codecogs.com/gif.latex?a) and ![b](https://latex.codecogs.com/gif.latex?b) are two constants and can be complex numbers (see _Math insert – complex numbers_). ![a](https://latex.codecogs.com/gif.latex?a) and ![b](https://latex.codecogs.com/gif.latex?b) are essentially describing how much of |0⟩ and |1⟩ are in the system. They are the "weights" and in
+fact amplitudes (see "wavefunction") of the |0⟩ and |1⟩ states. Their magnitude squared, ![\left | a \right |^{2}](https://latex.codecogs.com/gif.latex?%5Cleft%20%7C%20a%20%5Cright%20%7C%5E%7B2%7D) and ![\left | b \right |^{2}](https://latex.codecogs.com/gif.latex?%5Cleft%20%7C%20b%20%5Cright%20%7C%5E%7B2%7D) ,
+give the probabilities of finding the system in |0⟩ and |1⟩, respectively. Therefore ![\left | a \right |^{2}](https://latex.codecogs.com/gif.latex?%5Cleft%20%7C%20a%20%5Cright%20%7C%5E%7B2%7D) and ![\left | b \right |^{2}](https://latex.codecogs.com/gif.latex?%5Cleft%20%7C%20b%20%5Cright%20%7C%5E%7B2%7D) can be
+anything as long as the total probably sums up to 1, that is ![\left | a \right |^{2} + \left | b \right |^{2} = 1](https://latex.codecogs.com/gif.latex?%5Cleft%20%7C%20a%20%5Cright%20%7C%5E%7B2%7D%20&plus;%20%5Cleft%20%7C%20b%20%5Cright%20%7C%5E%7B2%7D%20%3D%201). This is referred to as the
 normalization condition.
 
+![Figure 1.1.3 states](spinning_coin.png)
 
 When the system has two qubits, there are four basis states the system can be in, where
 
-```
-|휓휓⟩ = �
-```
-#### 푎푎
+![\lvert \Psi  \rangle = \binom{a}{b} \otimes \binom{c}{d} = \begin{pmatrix} ac\\ad\\bc\\bd \end{pmatrix} = ac \lvert 00  \rangle + ad \lvert 01  \rangle + bc \lvert 10  \rangle + bd \lvert 11  \rangle](https://latex.codecogs.com/gif.latex?%5Clvert%20%5CPsi%20%5Crangle%20%3D%20%5Cbinom%7Ba%7D%7Bb%7D%20%5Cotimes%20%5Cbinom%7Bc%7D%7Bd%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%20ac%5C%5Cad%5C%5Cbc%5C%5Cbd%20%5Cend%7Bpmatrix%7D%20%3D%20ac%20%5Clvert%2000%20%5Crangle%20&plus;%20ad%20%5Clvert%2001%20%5Crangle%20&plus;%20bc%20%5Clvert%2010%20%5Crangle%20&plus;%20bd%20%5Clvert%2011%20%5Crangle)
 
-#### 푏푏�⊗^ �
-
-#### 푓푓
-
-#### 푑푑�^
-
-#### =�
-
-#### 푎푎푓푓
-
-#### 푎푎푑푑
-
-#### 푏푏푓푓
-
-#### 푏푏푑푑
-
-#### �
-
-```
-=푎푎푓푓|0 0 ⟩+푎푎푑푑|0 1 ⟩+푏푏푓푓|1 0 ⟩+푏푏푑푑|1 1 ⟩. eq. (1.7)
-```
-The normalization condition writes as |푎푎푓푓|^2 + |푎푎푑푑|^2 + |푏푏푓푓|^2 + |푏푏푑푑|^2 = 1. With N qubits, there are 2N
+The normalization condition writes as ![\left | ac \right |^{2} + \left | ad \right |^{2} + \left | bc \right |^{2} + \left | bd \right |^{2} = 1](https://latex.codecogs.com/gif.latex?%5Cleft%20%7C%20ac%20%5Cright%20%7C%5E%7B2%7D%20&plus;%20%5Cleft%20%7C%20ad%20%5Cright%20%7C%5E%7B2%7D%20&plus;%20%5Cleft%20%7C%20bc%20%5Cright%20%7C%5E%7B2%7D%20&plus;%20%5Cleft%20%7C%20bd%20%5Cright%20%7C%5E%7B2%7D%20%3D%201). With N qubits, there are ![2^{N}](https://latex.codecogs.com/gif.latex?2%5E%7BN%7D)
 possible states the system can be in.
 
-```
-Math insert – complex numbers ----------------------------------------------------------------------------------
-```
-```
-A complex number has a linear form, 푧푧=푎푎+푏푏푓푓, where 푎푎 and 푏푏 are real numbers and
-푓푓≡√− 1 is an imaginary number, so that a complex number has a real part 푅푅푅푅(푧푧) and an
-imaginary part 퐼퐼퐼퐼(푧푧).
-It is a mathematical convenience to ensure a square-root of a negative number to have
-a solution, since there is no real-number solution. This is useful in quantum mechanics as wave
-equations (below) will be easier to solve.
-A complex number can also be represented in a polar form, 푧푧=푟푟푅푅푖푖푖푖, where 푟푟=
-√푎푎^2 +푏푏^2 is the amplitude or the absolute value of 푧푧, and 휑휑 is the phase or argument of 푧푧. It
-follows the relations 휑휑=푎푎푓푓푎푎푓푓 2 �퐼퐼퐼퐼(푧푧),푅푅푅푅(푧푧)�=tan−1�푏푏푎푎� and 푅푅푖푖푖푖=cos휑휑+푓푓sin휑휑.
-A one-qubit state |휓휓⟩=푧푧 0 |0⟩+ 푧푧 1 |1⟩ can be written as
-```
-```
-(푎푎 0 +푏푏 0 )|0⟩+ (푎푎 1 +푏푏 1 )|1⟩
-```
-#### = 푟푟 0 푅푅푖푖푖푖^0 |0⟩+ 푟푟 1 푅푅푖푖푖푖^1 |1⟩.
+![Math insert - Complex Numbers](complex_numbers.png)
 
-
-```
-Therefore, the probability of finding state |0⟩ is �푟푟 0 푅푅푖푖푖푖^0 �
-2
-=푟푟 02. Similarly, for state |1⟩ it is 푟푟 12.
-The probability is determined by the magnitude of amplitude and is independent from phase.
-```
 ### Superposition
 
-In math, superposition is just several functions linearly adding up as in eq. (6 & 7). Here, we are dealing
-with states – one type of mathematical functions. Superposition of states is the fundamental factor that
-makes quantum computing powerful. Because while a classical bit can only be in either |0⟩ or |1⟩, a qubit
-can be in a state where |0⟩ and |1⟩ coexist – a complex linear combination between |0⟩ and |1⟩. Thus, if
-we make a computing system that can leverage this quantum phenomenon, we can have a single qubit
-that contains information where two classical bits would be needed. With N qubits, the system can
-compute 2N classical bits of information.
+In math, superposition is just several functions linearly adding up as in eq. (6 & 7). Here, we are dealing with states – one type of mathematical functions. Superposition of states is the fundamental factor that makes quantum computing powerful. Because while a classical bit can only be in either |0⟩ or |1⟩, a qubit can be in a state where |0⟩ and |1⟩ coexist – a complex linear combination between |0⟩ and |1⟩. Thus, if we make a computing system that can leverage this quantum phenomenon, we can have a single qubit that contains information where two classical bits would be needed. With N qubits, the system can compute 2N classical bits of information.
 
-```
-Physics insert – wavefunction --------------------------------------------------------------------------
-```
-```
-We introduced the concept of states without requiring any physics
-background. However, it may be interesting for some readers to know how physics
-describes a quantum system. Typically, physicists learn the subject in a chronological
-order – how the field of Physics has developed through time. Because physicists were
-used to classical phenomena, experimental results of quantum mechanical phenomena
-appeared to be surprising when they were first observed (look up the "UV
-Catastrophe", "photoelectric effect", "Compton Effect" and "interference of light at
-low intensity"). Physicists in the early 1900s naturally attempted to explain the results
-using classical methods.
-```
+![Physics insert - Wavefunction](wavefunction.png)
+![Physics insert - Dirac Notation](dirac_notation.png)
+![Physics insert - Superposition](superposition.png)
 
-These unexpected observations have led to the metaphors one often hears
-about in popular science today. These metaphors tend to make quantum physics sound
-mysterious and often hinder more than help one's understanding. Now that we are in
-the 21st century, quantum concepts can be taught in a much more straight-forward
-way, based on all the accumulated knowledge. This is the approach this tutorial takes
-to teach quantum computing – giving readers direct and enough information to get
-started with quantum computing while introducing historical facts from physics where
-appropriate for context. This way, readers will not be confused through unnecessary
-information overload but can still appreciate the thought physicists have put into
-developing the field.
-One of the historical approaches to describe quantum phenomena is using
-wavefunctions. Physicists in the early 1900s found that quantum particles behave like
-waves. This means a quantum system can be described using a wave equation - the
-Schrödinger equation. Here is the Schrödinger equation for a non-relativistic particle in
-an external potential:
-
-#### −
-
-```
-ħ^2
-2푚푚∇
-```
-(^2) 훹훹(풓풓,푓푓)+푉푉(풓풓,푓푓)훹훹(풓풓,푓푓)=푓푓ħ휕휕휕휕(풓풓,푡푡)
-휕휕푡푡^ ,^
-where 훹훹, called the "wavefunction," describes the state of the particle (technically,
-|훹훹(푟푟,푓푓)|^2 is the probability of finding the particle at position _r_ at time _t_ ); ħ is Planck
-constant (~1.05 x 10-34 Js/rad); _m_ is the mass of the quantum particle; and _V_ is an
-external potential (such as an electric or gravitational field). ). In a system that doesn't
-vary with time, the right-hand side of the equation equals 퐸퐸훹훹(풓풓,푓푓), with 퐸퐸 being the
-energy of the system. The above equation reflects conservation of energy, as the first
-and second parts on the left-hand side describe the kinetic energy and potential energy
-in the system, respectively. Something that's very important to note is that in the above
-equation, 훹훹(푟푟,푓푓) is a field that fills all of space and which evolves with time, which has
-to do with the probability of finding the particle anywhere at a given time. This is very
-different from classical mechanics, where we deal with the exact locations of particles.
-Physicists have established a rigorous representation of quantum systems
-using wavefunctions. However, an in-depth formalism with this approach is beyond the
-scope of this tutorial and is not essential for a quantum computing introduction. Thus,
-we avoid going into details of the "wave" approach but state its relevant outcomes
-next.
-_Physics insert – Dirac notation_ -------------------------------------------------------------------------
-Manipulating wavefunctions usually involves a lot of integrals. It tends to look
-messy. Paul Dirac came up with a compact and abstract notation. We've been using the
-symbol | ⟩ to indicate states: |훹훹⟩ denotes "the state with wavefunction" 훹훹(풓풓,푓푓). It has
-a counterpart representing its conjugate 훹훹∗(풓풓,푓푓)=⟨훹훹|. Together they form their
-overlap integral or inner product defined as
-
-#### ∫ 휙휙∗(푥푥)
-
-```
-+∞
-−∞ 휓휓(푥푥)^ 푑푑푥푥≡〈휙휙|휓휓〉.
-```
-
-```
-Evidently, the Dirac notation is much more concise. The inner product 〈 | 〉 is a
-shorthand for an integral and is pronounced as "bracket". The symbols "bra", ⟨ | , and
-"ket", | ⟩, are shorthand for wavefunctions. If 휓휓(푥푥) is normalized, 〈휓휓|휓휓〉= 1.
-```
-```
-Physics insert – superposition --------------------------------------------------------------------------
-```
-```
-The Schrödinger equation has a very interesting property called "linearity." If
-we find two solutions 훹훹 1 and 훹훹 2 , then combinations of them are also a valid solution.
-For example,
-1
-2 (훹훹^1 +훹훹^2 ) is a solution. For any system, physicists find a set of "basis
-states", which are sufficient to fully describe the system. For example, there might be
-one basis state for each position the particle can be in. But now, since the Schrödinger
-equation is linear, the combination of multiple basis states is also a valid state. For
-example, the combination of the states representing "particle is at position 0" and
-"particle is at position 1" is valid and represents a state where the particle's position is
-either 0 or 1. This is called the "superposition principle".
-The superposition behavior is written as
-```
-```
-휓휓(푥푥)=∑푖푖푓푓푖푖휙휙푖푖(푥푥) ,
-```
-```
-where we're working in 1D (hence, x instead of r ) for simplicity. Here, 휙휙푖푖 is the i th basis
-state in the system with coefficient 푓푓푖푖 being the "amplitude" of 휙휙푖푖. The amplitude
-squared, |푓푓푖푖|^2 , gives the probability of the system being in the i th state, 휙휙푖푖. Any
-wavefunction can be expanded in terms of the basis states, 휙휙푖푖(푥푥).
-In terms of a qubit, the above equation is reflected by superposition of states,
-such as in |휓휓⟩=푓푓 0 |0⟩+ 푓푓 1 |1⟩. We can see that a qubit system has only two basis
-states.
-To obtain the value of the coefficient of each possible basis state, one needs to
-find how much overlap there is between each basis state 휙휙푗푗 and the overall state 휓휓.
-```
-#### ∫ 휙휙푗푗∗(푥푥)
-
-```
-+∞
-−∞^ 휓휓(푥푥)푑푑푥푥= ∑푓푓푖푖푖푖 ∫ 휙휙푗푗(푥푥)
-```
-```
-+∞ ∗
-−∞^ 휙휙푖푖(푥푥)푑푑푥푥= 푓푓푗푗.
-```
-```
-In Dirac notation, |휓휓⟩=∑푖푖푓푓푖푖|휙휙푖푖⟩ , where 푓푓푗푗=〈휙휙푗푗|휓휓〉.
-```
 ### 2-Norm approach – an alternative way to teach and learn quantum mechanics
 
-Now that we are in the 21st century, quantum phenomena are no longer so strange to physicists, given all
-the knowledge we have accumulated from the past experiments. Perhaps there is a more straightforward
-way to learn quantum mechanics, without needing to immediately think about wavefunctions. Scott
-
-
-Aaronson, a theoretical computer scientist at University of Texas, uses a different approach to introduce
-quantum mechanics: https://www.scottaaronson.com/democritus/lec9.html
+Now that we are in the 21st century, quantum phenomena are no longer so strange to physicists, given all the knowledge we have accumulated from the past experiments. Perhaps there is a more straightforward way to learn quantum mechanics, without needing to immediately think about wavefunctions. Scott Aaronson, a theoretical computer scientist at University of Texas, uses a different approach to introduce quantum mechanics: https://www.scottaaronson.com/democritus/lec9.html
 
 Essentially, we can start by generalizing probability theory. In our experience, probabilities are
 always positive and sum to 1. This is called the "1-norm" condition:
 
-```
-∑푝푝푖푖푖푖 = 1.
-```
-In quantum mechanics, we don't work directly with probabilities. Instead, we work with
-"amplitudes." The square of an amplitude is a probability, so we require that _squares_ of the amplitudes
-sum to 1. This is called the "2-norm" condition (where "2" refers to the fact that we're squaring the
-amplitudes):
+![\sum _{i} p_{i} = 1](https://latex.codecogs.com/gif.latex?%5Csum%20_%7Bi%7D%20p_%7Bi%7D%20%3D%201) .
 
-```
-∑푖푖|푎푎푖푖|^2 = 1.
-```
+In quantum mechanics, we don't work directly with probabilities. Instead, we work with
+"amplitudes." The square of an amplitude is a probability, so we require that _squares_ of the amplitudes sum to 1. This is called the "2-norm" condition (where "2" refers to the fact that we're squaring the amplitudes):
+
+![\sum _{i} | a_{i} |^{2} = 1](https://latex.codecogs.com/gif.latex?%5Csum%20_%7Bi%7D%20%7C%20a_%7Bi%7D%20%7C%5E%7B2%7D%20%3D%201) .
+
 One thing to note here is that when we talk about "squaring" a number, we actually mean taking
-the "modulus squared" (or the "square of the magnitude"), which is done by multiplying it by its complex
-conjugate: |푎푎|^2 =푎푎∗푎푎. For a real number, taking the modulus squared and taking the square are the same
-thing, but for a complex number, they're different.
+the "modulus squared" (or the "square of the magnitude"), which is done by multiplying it by its complex conjugate: ![| a |^{2} = a^{*}a](https://latex.codecogs.com/gif.latex?%7C%20a%20%7C%5E%7B2%7D%20%3D%20a%5E%7B*%7Da). For a real number, taking the modulus squared and taking the square are the same thing, but for a complex number, they're different.
 
 Because of the 2-norm condition, an amplitude can be a positive, negative or even complex
-number. In the examples earlier, we wrote the amplitudes as 푓푓푖푖. As seen in the normalization condition,
-it is the square of _magnitudes_ of the amplitudes that sum to 1. Amplitudes are related to probabilities. If
-we want to go from an amplitude to a probability, we take the square of the magnitude of the amplitude.
-That's why the squares of the amplitudes must sum to 1.
+number. In the examples earlier, we wrote the amplitudes as ![c_{i}](https://latex.codecogs.com/gif.latex?c_%7Bi%7D). As seen in the normalization condition, it is the square of _magnitudes_ of the amplitudes that sum to 1. Amplitudes are related to probabilities. If
+we want to go from an amplitude to a probability, we take the square of the magnitude of the amplitude. That's why the squares of the amplitudes must sum to 1.
 
-The complex number 푓푓푖푖 can be written as 푟푟 0 푅푅푖푖푖푖^0 , with 푟푟 0 being the magnitude and 휑휑 0 the phase
-(see earlier _Math insert – complex number_ ). Both 푟푟 0 and 휑휑 0 are real numbers. As we've seen in _Math
-insert – complex numbers_ , probability only depends on the magnitude of the amplitude. For two
+The complex number ![c_{i}](https://latex.codecogs.com/gif.latex?c_%7Bi%7D) can be written as ![r_{0}e^{i\phi _{i}}](https://latex.codecogs.com/gif.latex?r_%7B0%7De%5E%7Bi%5Cphi%20_%7Bi%7D%7D), with ![r_{0}](https://latex.codecogs.com/gif.latex?r_%7B0%7D) being the magnitude and ![\phi _{i}](https://latex.codecogs.com/gif.latex?%5Cphi%20_%7Bi%7D) the phase (see earlier _Math insert – complex numbers_ ). Both ![r_{0}](https://latex.codecogs.com/gif.latex?r_%7B0%7D) and ![\phi _{i}](https://latex.codecogs.com/gif.latex?%5Cphi%20_%7Bi%7D) are real numbers. As we've seen in _Math insert – complex numbers_ , probability only depends on the magnitude of the amplitude. For two
 amplitudes, the normalization condition is
 
-```
-|푓푓 0 |^2 + |푓푓 1 |^2 =�푟푟 0 푅푅푖푖푖푖^0 �
-2
-+�푟푟 1 푅푅푖푖푖푖^1 �
-2
-=푟푟 02 +푟푟 12 = 1.
-```
+![\left |c_{0}  \right |^{2} + \left |c_{1}  \right |^{2} = \left |r_{0}e^{i\phi _{0}}  \right |^{2} + \left |r_{0}e^{i\phi _{1}}  \right |^{2} = r_{0}^{2}+r_{1}^{2} = 1](https://latex.codecogs.com/gif.latex?%5Cleft%20%7Cc_%7B0%7D%20%5Cright%20%7C%5E%7B2%7D%20&plus;%20%5Cleft%20%7Cc_%7B1%7D%20%5Cright%20%7C%5E%7B2%7D%20%3D%20%5Cleft%20%7Cr_%7B0%7De%5E%7Bi%5Cphi%20_%7B0%7D%7D%20%5Cright%20%7C%5E%7B2%7D%20&plus;%20%5Cleft%20%7Cr_%7B0%7De%5E%7Bi%5Cphi%20_%7B1%7D%7D%20%5Cright%20%7C%5E%7B2%7D%20%3D%20r_%7B0%7D%5E%7B2%7D&plus;r_%7B1%7D%5E%7B2%7D%20%3D%201) .
+
 This alternative quantum mechanics introduction bypasses wavefunction derivations. It puts up
-front that the universe behaves according to the 2-norm condition with a set of axioms. This allows us to
-see some fundamental quantum mechanical behaviors without dealing with more complicated systems,
-such as particles in an external potential. This is a useful fact when we talk about **measurements** in the
-next session.
+front that the universe behaves according to the 2-norm condition with a set of axioms. This allows us to see some fundamental quantum mechanical behaviors without dealing with more complicated systems, such as particles in an external potential. This is a useful fact when we talk about **measurements** in the next session.
 
 ```
 To read more rigorous mathematical derivations of the axioms in modern quantum theory:
@@ -314,10 +121,7 @@ To read more rigorous mathematical derivations of the axioms in modern quantum t
 Q# is a domain-specific programming language, developed by Microsoft, used for expressing quantum
 algorithms. We will be using it to gain hands-on experience programming quantum computers. There are
 several ways to exercise programming in Q#. The Microsoft Quantum Development Kit provides several
-open-source options. In this tutorial book, we will be choosing exercises developed on VS Code, Jupyter
-Notebooks and other tools. At the end of each session, we will familiarize ourselves by using a couple of
-these tools and hands-on coding. (The goal of the below exercise is to set up the environment and to take
-note of the katas, rather than to run a Q# program at the moment.)
+open-source options. In this tutorial book, we will be choosing exercises developed on VS Code, Jupyter Notebooks and other tools. At the end of each session, we will familiarize ourselves by using a couple of these tools and hands-on coding. (The goal of the below exercise is to set up the environment and to take note of the katas, rather than to run a Q# program at the moment.)
 
 1. Install and validate Quantum Development Kit (choose between Visual Studio or Visual Studio
     Code) according to the instructions
