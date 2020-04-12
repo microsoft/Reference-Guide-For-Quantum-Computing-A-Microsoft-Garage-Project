@@ -125,10 +125,6 @@ open-source options. In this tutorial book, we will be choosing exercises develo
 
 1. Install and validate [Quantum Development Kit](https://docs.microsoft.com/en-us/quantum/install-guide/?view=qsharp-preview) (choose between Visual Studio or Visual Studio
     Code) according to the instructions 
-2. Download and clone Microsoft Quantum Developer Kit Samples and Libraries
-3. Download QuantumComputingViaQSharpSolution developed by Pavan Kumar.
-4. Look at the first script in 01_HelloQuantumWorld Operation.qs in Visual Studio (Code).
-5. Take a look at the Quantum Katas developed on Jupyter Notebook. We will choose from these
-    katas after learning the concepts at each session. You can run the katas online as a Jupyter
-    Notebook. If you wish to run them locally, follow the instructions on the section labeled
-    'Running the Katas Locally' to clone the repository onto your computer.
+2. Download or clone QuantumComputingViaQSharpSolution developed by Pavan Kumar.
+3. Look at the first script in 01_HelloQuantumWorld Operation.qs in Visual Studio (Code).
+4. Take a look at the [Quantum Katas](https://github.com/microsoft/QuantumKatas) developed on Jupyter Notebook. We will choose from these katas after learning the concepts at each session. You can run the katas online as a Jupyter Notebook. If you wish to run them locally, follow the instructions on the section labeled 'Running the Katas Locally' to clone the repository onto your computer.
