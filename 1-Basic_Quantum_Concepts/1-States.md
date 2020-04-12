@@ -123,14 +123,12 @@ algorithms. We will be using it to gain hands-on experience programming quantum 
 several ways to exercise programming in Q#. The Microsoft Quantum Development Kit provides several
 open-source options. In this tutorial book, we will be choosing exercises developed on VS Code, Jupyter Notebooks and other tools. At the end of each session, we will familiarize ourselves by using a couple of these tools and hands-on coding. (The goal of the below exercise is to set up the environment and to take note of the katas, rather than to run a Q# program at the moment.)
 
-1. Install and validate Quantum Development Kit (choose between Visual Studio or Visual Studio
-    Code) according to the instructions
+1. Install and validate [Quantum Development Kit](https://docs.microsoft.com/en-us/quantum/install-guide/?view=qsharp-preview) (choose between Visual Studio or Visual Studio
+    Code) according to the instructions 
 2. Download and clone Microsoft Quantum Developer Kit Samples and Libraries
-3. Download QuantumComputingViaQSharpSolution developed by Pavan Kumar at The Garage –
-    India
+3. Download QuantumComputingViaQSharpSolution developed by Pavan Kumar.
 4. Look at the first script in 01_HelloQuantumWorld Operation.qs in Visual Studio (Code).
 5. Take a look at the Quantum Katas developed on Jupyter Notebook. We will choose from these
     katas after learning the concepts at each session. You can run the katas online as a Jupyter
     Notebook. If you wish to run them locally, follow the instructions on the section labeled
     'Running the Katas Locally' to clone the repository onto your computer.
-
