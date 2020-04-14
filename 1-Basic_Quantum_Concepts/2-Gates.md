@@ -16,12 +16,9 @@
 ### Unitary matrix
 
 Since qubit states are represented with vectors, the way to manipulate them is through matrix
-multiplications, which transforms a vector into a different vector. Such matrix operations applied onto the
-states are called "gates". In quantum mechanics, matrices representing gates are required to be unitary
-(see _Math insert - unitary, adjoint or Hermitian conjugate_ ). This is to ensure normalization condition, i.e.
-probabilities add up to 1, mentioned in Section 1.1. Unitarity also constraints the operation to be
-reversible. This is intuitive as one can find an operation that reverts the gate and returns a system back to
-its original state.
+multiplications, which transforms a vector into a different vector. Such matrix operations applied onto the states are called "gates". In quantum mechanics, matrices representing gates are required to be unitary (see _Math insert - unitary, adjoint or Hermitian conjugate_ ). This is to ensure normalization condition, i.e. probabilities add up to 1, mentioned in Section 1.1. Unitarity also constraints the operation to be reversible. This is intuitive as one can find an operation that reverts the gate and returns a system back to its original state.
+
+![Figure 1.2.1 gate](gate.png)
 
 ```
 Math insert – unitary, adjoint or Hermitian conjugate --------------------------------------------
