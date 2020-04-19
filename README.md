@@ -132,14 +132,12 @@ expressing quantum algorithms. The goal is for you to familiarize yourself with 
 will also cover state-of -the-art hardware systems and real-world applications of quantum computing in
 Phase 3.
 
-```
-_Math and Physics inserts_ ----------------------------------------------------------------------------------
-```
-```
-Throughout the book, you will find inserts in grey boxes. These are deeper sections than the
-main texts that function as expansions for interested readers. They can be skipped without
-affecting reading of the main texts.
-```
+>_Math and Physics inserts_ ----------------------------------------------------------------------------------
+>
+>Throughout the book, you will find inserts. These are deeper sections than the
+>main texts that function as expansions for interested readers. They can be skipped without
+>affecting reading of the main texts.
+
 
 Quantum computing is a practical subject – engineering applying quantum phenomena in building
 a computing system that surpasses classical computing capabilities in certain tasks. It is a sub-field of
