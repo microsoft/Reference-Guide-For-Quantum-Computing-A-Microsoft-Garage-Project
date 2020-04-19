@@ -133,7 +133,7 @@ will also cover state-of -the-art hardware systems and real-world applications o
 Phase 3.
 
 ```
-Math and Physics inserts ----------------------------------------------------------------------------------
+_Math and Physics inserts_ ----------------------------------------------------------------------------------
 ```
 ```
 Throughout the book, you will find inserts in grey boxes. These are deeper sections than the
