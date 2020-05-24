@@ -1,17 +1,17 @@
 # Introduction
 
-** – The Garage**
+**Reference Guide for Quantum Computing, a Microsoft Garage project**
 
 **A Hands-On Introduction to Quantum Computing**
 
 **Authors: Kitty Yeung, Pavan Kumar, Michael Beverland, Ravindra Ramouthar,** 
-**Alex Talarico, Delbert Murphy, Waldemir Cambiucci**
+**Alex Talarico, Delbert Murphy, Waldemir Cambiucci, Karl Tietze**
 
 **Q# exercise: Pavan Kumar, Mariia Mykhailova**
 
 **Illustration: Kitty Yeung**
 
-**Reviewers: Cathy Palmer, Dave Wecker, Charlie Marcus, The Garage, Quantum Systems team**
+**Reviewers: The Garage, Quantum Systems team**
 
 
 ## TABLE OF CONTENTS
