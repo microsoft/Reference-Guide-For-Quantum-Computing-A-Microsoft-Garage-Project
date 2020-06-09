@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "PXx+Fnr3wZ0gEP25FXW8HITA++UNg2m+4lmuXlBIhctuh9K3d8dTPtTR3lApFMdP+kM3oN77lhfenynwR/bx/A==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\10_Demo array-Length-Head-Tail-Rest-Reverse-Range Functions\\10_Demo array-Length-Head-Tail-Rest-Reverse-Range Functions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.canon\\0.2.1802.2202-preview\\microsoft.quantum.canon.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.development.kit\\0.2.1802.2202-preview\\microsoft.quantum.development.kit.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

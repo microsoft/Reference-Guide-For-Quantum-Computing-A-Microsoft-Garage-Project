@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "T8hGjIRGLZ8v9B1tQOJbp54aCqq12ieuO/T6o7pTbW18bxyI5v69U/4eYNvYlEjO/Hh/I96h5KEZJ5Za3FpwVQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\27_Demo Simon's Algorithm\\27_Demo Simon's Algorithm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.canon\\0.3.1811.2802-preview\\microsoft.quantum.canon.0.3.1811.2802-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.development.kit\\0.3.1811.2802-preview\\microsoft.quantum.development.kit.0.3.1811.2802-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

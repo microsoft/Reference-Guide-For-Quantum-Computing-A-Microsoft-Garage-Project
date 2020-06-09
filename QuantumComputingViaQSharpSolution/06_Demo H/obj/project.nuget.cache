@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "iQjLxlvYbWsbiLy6lksND/pLNpyJ2WauZNiP8UX+Lws5vRI6LWdTH9IYB2/7rRnpyb0ybKRPSud5MeXgPFQhRw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.canon\\0.2.1802.2202-preview\\microsoft.quantum.canon.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.development.kit\\0.2.1802.2202-preview\\microsoft.quantum.development.kit.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

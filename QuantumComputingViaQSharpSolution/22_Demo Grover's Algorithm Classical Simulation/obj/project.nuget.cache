@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "47mSnFf+NoqpgFvimX7K/PozkeVRUdqqWelKK66vWpFCcR+Z9N/7MF99JCM9u0/DfrwDTP3bT4B3TtsLU5VRHw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\22_Demo Grover's Algorithm Classical Simulation\\22_Demo Grover's Algorithm Classical Simulation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.canon\\0.2.1802.2202-preview\\microsoft.quantum.canon.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.development.kit\\0.2.1802.2202-preview\\microsoft.quantum.development.kit.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
