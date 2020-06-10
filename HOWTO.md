@@ -1,7 +1,7 @@
 # How to read this book
 
 
-**Installing Jupyter Notebook to ideally work this repo**
+**Installing Jupyter Notebook to optimize working with this repo**
 
 While using the Microsoft quantum community book you might notice some discrepancies in rendering equations. To prevent this use Jupyter Notebooks locally. Use the following instructions to do so: 
 
