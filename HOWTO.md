@@ -3,7 +3,7 @@
 
 **Installing Jupyter Notebook to optimize working with this repo**
 
-While using the Microsoft quantum community book you might notice some discrepancies in rendering equations. To prevent this use Jupyter Notebooks locally. Use the following instructions to do so: 
+While using _Reference Guide for Quantum Computing, a Microsoft Garage project_ you might notice some discrepancies in rendering equations in different IDEs and on GitHub. For a smooth experience, use Jupyter Notebooks locally, following the below instructions: 
 
 ## Requirements:
 
@@ -14,7 +14,7 @@ Runtime: Python 3.3+
 
 ## Installing Jupyter with pip
 
-Before you install jupyter with pip, make sure you are on the newest version of pip.
+Before you install jupyter with pip, make sure you are on the newest version of [pip](https://pip.pypa.io/en/stable/installing/).
 
 ```pip3 install --upgrade pip```
 
@@ -35,9 +35,9 @@ From the command line navigate to the cloned community_book folder via
 To run the notebook use
 
 ```jupyter notebook```
+**Kitty**: this did not work for me, had to use ```python -m notebook```
 
-
-The jupyter notebook should run at localhost:8888. Usually the browser opens this url automatically.  
+Jupyter Notebook should run at localhost:8888. Usually the browser opens this url automatically.  
 
 ![alt text](media/jupyter_1.png)
 
