@@ -5,7 +5,7 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kitty.EUROPE\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\demehra\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.6.0</NuGetToolVersion>
   </PropertyGroup>
@@ -13,10 +13,16 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.quantum.development.kit\0.2.1806.3001-preview\build\Microsoft.Quantum.Development.Kit.props" Condition="Exists('$(NuGetPackageRoot)microsoft.quantum.development.kit\0.2.1806.3001-preview\build\Microsoft.Quantum.Development.Kit.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\2.9.4\build\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\2.9.4\build\Microsoft.CodeAnalysis.Analyzers.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Quantum_Development_Kit Condition=" '$(PkgMicrosoft_Quantum_Development_Kit)' == '' ">C:\Users\kitty.EUROPE\.nuget\packages\microsoft.quantum.development.kit\0.2.1806.3001-preview</PkgMicrosoft_Quantum_Development_Kit>
+    <PkgSystem_CommandLine Condition=" '$(PkgSystem_CommandLine)' == '' ">C:\Users\demehra\.nuget\packages\system.commandline\2.0.0-beta1.20213.1</PkgSystem_CommandLine>
+    <PkgMicrosoft_Quantum_Runtime_Core Condition=" '$(PkgMicrosoft_Quantum_Runtime_Core)' == '' ">C:\Users\demehra\.nuget\packages\microsoft.quantum.runtime.core\0.11.2004.2825</PkgMicrosoft_Quantum_Runtime_Core>
+    <PkgMicrosoft_Quantum_QSharp_Core Condition=" '$(PkgMicrosoft_Quantum_QSharp_Core)' == '' ">C:\Users\demehra\.nuget\packages\microsoft.quantum.qsharp.core\0.11.2004.2825</PkgMicrosoft_Quantum_QSharp_Core>
+    <PkgMicrosoft_Quantum_Simulators Condition=" '$(PkgMicrosoft_Quantum_Simulators)' == '' ">C:\Users\demehra\.nuget\packages\microsoft.quantum.simulators\0.11.2004.2825</PkgMicrosoft_Quantum_Simulators>
+    <PkgMicrosoft_Quantum_Standard Condition=" '$(PkgMicrosoft_Quantum_Standard)' == '' ">C:\Users\demehra\.nuget\packages\microsoft.quantum.standard\0.11.2004.2825</PkgMicrosoft_Quantum_Standard>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\demehra\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_FlowAnalysis_Utilities Condition=" '$(PkgMicrosoft_CodeAnalysis_FlowAnalysis_Utilities)' == '' ">C:\Users\demehra\.nuget\packages\microsoft.codeanalysis.flowanalysis.utilities\2.9.5</PkgMicrosoft_CodeAnalysis_FlowAnalysis_Utilities>
+    <PkgMicrosoft_Quantum_CsharpGeneration Condition=" '$(PkgMicrosoft_Quantum_CsharpGeneration)' == '' ">C:\Users\demehra\.nuget\packages\microsoft.quantum.csharpgeneration\0.11.2004.2825</PkgMicrosoft_Quantum_CsharpGeneration>
   </PropertyGroup>
 </Project>

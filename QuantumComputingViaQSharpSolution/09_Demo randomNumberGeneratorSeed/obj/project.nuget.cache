@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "74Ll1LfpoAoKQg8b5y2dWgFr7NSFcsXzy+U8q5bBKaYt3Hvkj1uArHpiTkYrk1AcvoAV7Qdq+2lhiQQlCYR6Dw==",
+  "dgSpecHash": "ueE3qHFIX7KngP5eVFWH9nq0+mav1nGZAYUMqcCQNkkdkmMqbrmDM80tC23P/ZEXnUL9zP507P2ZQXIL/zxR3w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\09_Demo randomNumberGeneratorSeed.csproj",
+  "projectFilePath": "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\09_Demo randomNumberGeneratorSeed.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.canon\\0.2.1802.2202-preview\\microsoft.quantum.canon.0.2.1802.2202-preview.nupkg.sha512",
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\microsoft.quantum.development.kit\\0.2.1802.2202-preview\\microsoft.quantum.development.kit.0.2.1802.2202-preview.nupkg.sha512",
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+    "C:\\Users\\demehra\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\demehra\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\demehra\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\demehra\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\demehra\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\demehra\\.nuget\\packages\\microsoft.quantum.canon\\0.2.1802.2202-preview\\microsoft.quantum.canon.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\demehra\\.nuget\\packages\\microsoft.quantum.development.kit\\0.2.1802.2202-preview\\microsoft.quantum.development.kit.0.2.1802.2202-preview.nupkg.sha512",
+    "C:\\Users\\demehra\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }

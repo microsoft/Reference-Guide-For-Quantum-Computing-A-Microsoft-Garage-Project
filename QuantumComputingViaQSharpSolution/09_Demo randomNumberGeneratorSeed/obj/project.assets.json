@@ -258,6 +258,8 @@
       "type": "package",
       "path": "microsoft.netcore.app/2.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "Microsoft.NETCore.App.versions.txt",
         "THIRD-PARTY-NOTICES.TXT",
@@ -536,6 +538,8 @@
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
@@ -548,6 +552,8 @@
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
@@ -560,6 +566,8 @@
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
@@ -589,6 +597,8 @@
       "type": "package",
       "path": "microsoft.quantum.canon/0.2.1802.2202-preview",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Quantum.Canon.deps.json",
         "lib/netstandard2.0/Microsoft.Quantum.Canon.dll",
         "lib/netstandard2.0/Microsoft.Quantum.Canon.pdb",
@@ -600,7 +610,10 @@
       "sha512": "aQ6eaFFtwXchZJJN7nwfU6iSZ/LM1IUggjNKli97U8nDr/SgnRxL+5onWvyjDSVXgd4WBSBdxWEsvklCrWIqYQ==",
       "type": "package",
       "path": "microsoft.quantum.development.kit/0.2.1802.2202-preview",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "build/Microsoft.Quantum.Development.Kit.props",
         "build/Microsoft.Quantum.Development.Kit.targets",
         "build/QSharp.ProjectItemsSchema.xaml",
@@ -658,6 +671,8 @@
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/NETStandard.Library.targets",
@@ -790,25 +805,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\": {}
+    "C:\\Users\\demehra\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\09_Demo randomNumberGeneratorSeed.csproj",
+      "projectUniqueName": "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\09_Demo randomNumberGeneratorSeed.csproj",
       "projectName": "09_Demo randomNumberGeneratorSeed",
-      "projectPath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\09_Demo randomNumberGeneratorSeed.csproj",
-      "packagesPath": "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\obj\\",
+      "projectPath": "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\09_Demo randomNumberGeneratorSeed.csproj",
+      "packagesPath": "C:\\Users\\demehra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\09_Demo randomNumberGeneratorSeed\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kitty.EUROPE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\demehra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/BP-BarclaysGRMS/_packaging/BP-BarclaysGRMS%40Local/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -849,7 +871,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

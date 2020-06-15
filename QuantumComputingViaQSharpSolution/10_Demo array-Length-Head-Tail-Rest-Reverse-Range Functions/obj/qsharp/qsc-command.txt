@@ -1,0 +1,6 @@
+:: files ::
+Operation.qs
+:: qsim ::
+:: references ::
+:: command ::
+dotnet C:\Users\demehra\.nuget\packages\microsoft.quantum.development.kit\0.2.1802.2202-preview\build\../tools/qsc/qsc.dll --input "Operation.qs" --references "" --outputpath obj\qsharp\src\

@@ -1,29 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj": {}
+    "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj": {
+    "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj",
+        "projectUniqueName": "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj",
         "projectName": "06_Demo H",
-        "projectPath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj",
-        "packagesPath": "C:\\Users\\kitty.EUROPE\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kitty\\Documents\\Quantum_Computing\\Doc_PR\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\obj\\",
+        "projectPath": "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\06_Demo H.csproj",
+        "packagesPath": "C:\\Users\\demehra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\demehra\\Source\\Repos\\community_book\\QuantumComputingViaQSharpSolution\\06_Demo H\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kitty.EUROPE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\demehra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BP-BarclaysGRMS/_packaging/BP-BarclaysGRMS%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -34,21 +40,41 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.NETCore.App": {
+            "Microsoft.Quantum.CsharpGeneration": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.0, )",
-              "autoReferenced": true
+              "version": "[0.11.2004.2825, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
             },
-            "Microsoft.Quantum.Canon": {
+            "Microsoft.Quantum.QSharp.Core": {
               "target": "Package",
-              "version": "[0.2.1802.2202-preview, )"
+              "version": "[0.11.2004.2825, )",
+              "generatePathProperty": true
             },
-            "Microsoft.Quantum.Development.Kit": {
+            "Microsoft.Quantum.Runtime.Core": {
               "target": "Package",
-              "version": "[0.2.1802.2202-preview, )"
+              "version": "[0.11.2004.2825, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
+            },
+            "Microsoft.Quantum.Simulators": {
+              "target": "Package",
+              "version": "[0.11.2004.2825, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.11.2004.2825, )",
+              "generatePathProperty": true
+            },
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta1.20213.1, )",
+              "generatePathProperty": true
             }
           },
           "imports": [
@@ -61,7 +87,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
