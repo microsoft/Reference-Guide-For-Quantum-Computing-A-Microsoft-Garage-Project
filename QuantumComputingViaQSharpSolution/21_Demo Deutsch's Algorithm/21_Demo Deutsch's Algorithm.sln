@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_Demo Deutsch's Algorithm", "21_Demo Deutsch's Algorithm.csproj", "{4E77103B-CA5A-4273-9EF7-C9962B8878FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E77103B-CA5A-4273-9EF7-C9962B8878FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E77103B-CA5A-4273-9EF7-C9962B8878FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E77103B-CA5A-4273-9EF7-C9962B8878FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E77103B-CA5A-4273-9EF7-C9962B8878FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F58BC75-E200-4544-BCFB-97816CE3E8AD}
+	EndGlobalSection
+EndGlobal
