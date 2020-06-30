@@ -18,7 +18,9 @@
 
 - Phase 1 Basic Quantum Concepts
 
-* [1.1 States](./1-Basic_Qunatum_Concepts/1-States.ipynb)
+* [Introduction](#Introduction)
+
+* [1.1 States](./1-Basic_Quantum_Concepts/1-States.ipynb)
     * [Vector notation]()
     * [Classical bits]()
     * [Quantum bits – qubits]()   
@@ -26,7 +28,7 @@
     * [2-Norm approach]()
         * [Q# exercise: setup a Q# environment]()
 
-* [1.2 Gates](1-Basic_Qunatum_Concepts/2-Gates.ipynb)
+* [1.2 Gates](1-Basic_Quantum_Concepts/2-Gates.ipynb)
    * [Unitary matrix]()
    * [The Control-NOT Gate (CNOT)]()
        * [Q# exercise: CNOT gate]()
@@ -40,7 +42,7 @@
        * [Q# exercise: Measurement using M operation]()
    * [Interference]()
 
-* [1.3 Entanglement](1-Basic_Qunatum_Concepts/3-Entanglement.ipynb)
+* [1.3 Entanglement](1-Basic_Quantum_Concepts/3-Entanglement.ipynb)
    * [Bell states]()
    * [Entanglement]()
    * [Creating a Bell state]()
@@ -51,14 +53,14 @@
        * [Q# exercise: Superdense Coding]()
        * [Quirk]()
 
-* [1.4 Teleportation](1-Basic_Qunatum_Concepts/4-Teleportation.ipynb)
-       * [Q# exercise: Teleportation]()
-       * [Q# exercise: Another Teleportation Exercise]()
+* [1.4 Teleportation](1-Basic_Quantum_Concepts/4-Teleportation.ipynb)
+    * [Q# exercise: Teleportation]()
+    * [Q# exercise: Another Teleportation Exercise]()
 
-* [1.5 The No-Cloning Theorem](1-Basic_Qunatum_Concepts/5-No-Cloning_Theorem.ipynb)
+* [1.5 The No-Cloning Theorem](1-Basic_Quantum_Concepts/5-No-Cloning_Theorem.ipynb)
 
-* [1.6 The CHSH Game](1-Basic_Qunatum_Concepts/6-CHSH_Game.ipynb)
-       * [Q# exercise: CHSH Game]()
+* [1.6 The CHSH Game](1-Basic_Quantum_Concepts/6-CHSH_Game.ipynb)
+    * [Q# exercise: CHSH Game]()
 
 Phase 2 Quantum Algorithms
 * [2.1 Quantum Oracles](2-Quantum_Algorithms/1-Quantum_Oracles.ipynb)
@@ -100,6 +102,8 @@ Looking Ahead
 * [Post-Quantum Cryptography VPN]()
 * [Conclusion]()
 
+
+## Introduction <a name="Introduction" /> ##
 
 **Phase 1 – Quantum Computing Basic Concepts**
 
