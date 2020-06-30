@@ -18,7 +18,7 @@
 
 - Phase 1 Basic Quantum Concepts
 
-* [1.1 States](1-Basic_Qunatum_Concepts/1-States.ipynb)
+* [1.1 States](./1-Basic_Qunatum_Concepts/1-States.ipynb)
     * [Vector notation]()
     * [Classical bits]()
     * [Quantum bits – qubits]()   
