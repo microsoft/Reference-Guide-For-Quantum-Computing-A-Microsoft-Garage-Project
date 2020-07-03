@@ -44,23 +44,23 @@
 * [1.5 The No-Cloning Theorem](./1-Basic_Quantum_Concepts/5-No-Cloning_Theorem.ipynb)
 
 * [1.6 The CHSH Game](./1-Basic_Quantum_Concepts/6-CHSH_Game.ipynb)
-    * [Q# exercise: CHSH Game]()
+    * [Q# exercise: CHSH Game](./1-Basic_Quantum_Concepts/6-CHSH_Game.ipynb#qchsh)
 
 Phase 2 Quantum Algorithms
 * [2.1 Quantum Oracles](./2-Quantum_Algorithms/1-Quantum_Oracles.ipynb)
-       * [Q# exercise: Oracles]()
+       * [Q# exercise: Oracles](./2-Quantum_Algorithms/1-Quantum_Oracles.ipynb#qexercise)
 
 * [2.2 Deutsch's Algorithm](./2-Quantum_Algorithms/2-Deutsch_s_Algorithm.ipynb)
-       * [Q# exercise: Deutsch's algorithm]()
+       * [Q# exercise: Deutsch's algorithm](./2-Quantum_Algorithms/2-Deutsch_s_Algorithm.ipynb#qex)
 
 * [2.3 Deutsch-Jozsa Algorithm](./2-Quantum_Algorithms/3-Deutsch-Jozsa_Algorithm.ipynb)
-       * [Q# exercise: Deutsch-Josza algorithm]()
+       * [Q# exercise: Deutsch-Josza algorithm](./2-Quantum_Algorithms/3-Deutsch-Jozsa_Algorithm.ipynb#qex)
 
 * [2.4 Grover's Algorithm](./2-Quantum_Algorithms/4-Grover_s_Algorithm.ipynb)
-       * [Q# exercise: Grover's algorithm]()
+       * [Q# exercise: Grover's algorithm](./2-Quantum_Algorithms/4-Grover_s_Algorithm.ipynb#qex)
 
 * [2.5 Simon's Algorithm](./2-Quantum_Algorithms/5-Simon_s_Algorithm.ipynb)
-       * [Q# exercise: Simon's algorithm]()
+       * [Q# exercise: Simon's algorithm](./2-Quantum_Algorithms/5-Simon_s_Algorithm.ipynb#qex)
 
 * [2.6 Shor's Algorithm](./2-Quantum_Algorithms/6-Shor_s_Algorithm.ipynb)
 
