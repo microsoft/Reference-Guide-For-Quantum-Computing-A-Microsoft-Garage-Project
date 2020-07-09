@@ -5,7 +5,7 @@
 **Authors: Kitty Yeung, Pavan Kumar, Michael Beverland, Ravindra Ramouthar,** 
 **Alex Talarico, Delbert Murphy, Waldemir Cambiucci, Karl Tietze, Benjamin Tokgöz, Alexandra Schroeder**
 
-**Q# exercise: Pavan Kumar, Mariia Mykhailova**
+**Q# exercise: Pavan Kumar, Mariia Mykhailova, Nafisa Barlaskar, Devika Mehra**
 
 **Illustration: Kitty Yeung**
 
