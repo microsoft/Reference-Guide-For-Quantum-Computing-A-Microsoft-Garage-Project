@@ -2,8 +2,8 @@
 
 **A Hands-On Introduction to Quantum Computing**
 
-**Authors: Kitty Yeung, Pavan Kumar, Michael Beverland, Ravindra Ramouthar,** 
-**Alex Talarico, Delbert Murphy, Waldemir Cambiucci, Karl Tietze, Benjamin Tokgöz, Alexandra Schroeder**
+**Authors: Kitty Yeung, Pavan Kumar, Michael Beverland, Ravindra Ramouthar, Alex Talarico, Delbert Murphy,** 
+**Waldemir Cambiucci, Karl Tietze, Benjamin Tokgöz, Alexandra Schroeder, Devika Mehra, Nafisa Barlaskar**
 
 **Q# exercise: Pavan Kumar, Mariia Mykhailova**
 
