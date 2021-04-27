@@ -161,3 +161,7 @@ produce an output our classical computers can then make sense of and display.
 As we have seen throughout history, sometimes technological breakthroughs occur by tinkering
 with existing equipment. The technology to build a quantum computer today is certain to evolve over the
 next decades, as we have just begun to scratch the surface of hardware design.
+
+## EXERCISES
+
+At the end of each chapter, you will find a set of hands-on excercises to practice knowledge learned from that chapter. They are contained in the [QuantumComputingViaQSharpSolution](https://github.com/microsoft/Reference-Guide-For-Quantum-Computing-A-Microsoft-Garage-Project/tree/main/QuantumComputingViaQSharpSolution) folder of this repository. 
