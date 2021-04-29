@@ -1,6 +1,6 @@
 ## TABLE OF CONTENTS
 
-- Phase 1 Basic Quantum Concepts
+Phase 1 Basic Quantum Concepts
 
 * [Introduction](./README.md)
 
