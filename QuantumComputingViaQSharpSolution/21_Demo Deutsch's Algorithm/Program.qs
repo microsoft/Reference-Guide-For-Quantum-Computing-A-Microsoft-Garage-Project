@@ -10,8 +10,8 @@
 			//Circuit diagram located here
 			//https://www.researchgate.net/profile/Piotr_Gawron/publication/250802186/figure/fig2/AS:298189887426561@1448105417119/Graphical-representation-of-Deutsch-algorithm.png
 			
-			using(qubits = Qubit[2])
-			{
+			use qubits = Qubit[2];
+			
 
 				//Making the second qubit 1
 				X(qubits[1]);
@@ -44,7 +44,7 @@
 				}
 
 				ResetAll(qubits);
-			}
+			
     }
 
 	//This BB will always return 0

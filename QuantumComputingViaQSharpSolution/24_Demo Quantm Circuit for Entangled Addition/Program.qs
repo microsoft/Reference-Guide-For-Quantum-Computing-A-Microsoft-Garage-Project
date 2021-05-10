@@ -10,14 +10,14 @@
     operation HelloQ() : Unit {
         mutable strSum = "";
         // First Number
-        using(a = Qubit[2])
-        {
+       use a = Qubit[2];
+        
             // Second Number
-            using(b = Qubit[2])
-            {
+            use b = Qubit[2];
+            
                 // sum will be a 3 bit number that stores the sum of a and b along with carry.
-                using(sum = Qubit[3])
-                {
+                use sum = Qubit[3];
+                
                     ApplyToEach(H, a+b);
 
                     // First qubit
@@ -53,13 +53,13 @@
                     }
                     
                     ResetAll(sum);
-                }
+                
                 ResetAll(b);
 
-            }
+            
             ResetAll(a);
             
-        }
+        
     }
 }
 
