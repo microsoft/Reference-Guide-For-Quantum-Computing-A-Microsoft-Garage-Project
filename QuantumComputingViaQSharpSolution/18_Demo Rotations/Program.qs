@@ -13,10 +13,9 @@
         mutable countOne = 0;
         mutable iterations = 1000;
 
-        using(qubit = Qubit())
-        {
+        use qubit = Qubit();
             // Measure without any operation
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 let result = M(qubit);
                 if(IsResultZero(result))
@@ -38,7 +37,7 @@
             // Will make Zero to One
             set countZero = 0;
             set countOne = 0;
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 Rx(PI(), qubit);
                 let result = M(qubit);
@@ -60,7 +59,7 @@
             // Will also make Zero to One
             set countZero = 0;
             set countOne = 0;
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 Ry(PI(), qubit);
                 let result = M(qubit);
@@ -82,7 +81,7 @@
             // Zero will remain as Zero
             set countZero = 0;
             set countOne = 0;
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 Rz(PI(), qubit);
                 let result = M(qubit);
@@ -104,7 +103,7 @@
             // Same as H
             set countZero = 0;
             set countOne = 0;
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 Ry(PI()/2.0, qubit);
                 let result = M(qubit);
@@ -125,7 +124,7 @@
             // R(PauliX, PI()/2.0, qubit); 
             set countZero = 0;
             set countOne = 0;
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 // PauliX and PauliZ can also be used; They are similar to Rx, Ry, Rz.
                 R(PauliY, PI()/2.0, qubit);
@@ -148,7 +147,7 @@
             // Zero will remain as Zero; This is same as Rz. We are changing only the phase of One
             set countZero = 0;
             set countOne = 0;
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 R1(PI(), qubit);
                 let result = M(qubit);
@@ -170,7 +169,7 @@
             // 1/4 probabilityOfZero.
             set countZero = 0;
             set countOne = 0;
-            for(i in 1..iterations)
+            for i in 1..iterations
             {
                 let probabilityOfZero = 1.0/4.0;
                 let amplitudeOfZero = Sqrt(probabilityOfZero);
@@ -191,7 +190,7 @@
             Message("CountZero: " + Convert.IntAsString(countZero));
             Message("CountOne: " + Convert.IntAsString(countOne));
 
-        }
+        
     }
 }
 

@@ -6,16 +6,16 @@
 
     @EntryPoint()
     operation HelloQ() : Unit {
-        using(qubit = Qubit())
-        {
-            // Applying Hadamard on the qubit.
+        use qubit = Qubit();
+        
+        // Applying Hadamard on the qubit.
             H(qubit);
             let result = M(qubit);
-            // This output might change for every execution
-            // because H will put the qubit in a 50/50 superposition of 0 and 1.
+        // This output might change for every execution
+        // because H will put the qubit in a 50/50 superposition of 0 and 1.
             Message(Convert.BoolAsString(Convert.ResultAsBool(result)));
             Reset(qubit);
-        }
+        
     }
 }
 

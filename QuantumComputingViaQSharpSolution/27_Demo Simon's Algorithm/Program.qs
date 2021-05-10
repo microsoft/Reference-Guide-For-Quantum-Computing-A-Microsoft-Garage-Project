@@ -10,11 +10,11 @@
 	operation Demo_Simon_s_Algorithm () : Unit {
         
 		//Implementing the Simon's Algo for n = 4
-		using(inputQubits = Qubit[4])
-		{
+		use inputQubits = Qubit[4];
+		
 			//All output qubits will be initialized to 0
-			using(outputQubits = Qubit[4])
-			{
+			use outputQubits = Qubit[4];
+			
 				//Running the algorithm 20 times. 
 				//Ideally running it 3 times should be enough with good probability
 				for(iter in 0..19)
@@ -61,7 +61,7 @@
 				let outputQubitsResults1 = MultiM(outputQubits);
 				Message("");
 				Message("Testing the blackbox for input=0000");
-				for(i in 0..3){
+				for i in 0..3{
 						Message($"{outputQubitsResults1[i]}");
 				}
 				ResetAll(outputQubits);
@@ -76,7 +76,7 @@
 				let outputQubitsResults2 = MultiM(outputQubits);
 				Message("");
 				Message("Testing the blackbox for input=1010");
-				for(i in 0..3){
+				for i in 0..3{
 						Message($"{outputQubitsResults2[i]}");
 				}
 				ResetAll(outputQubits);
@@ -91,7 +91,7 @@
 				let outputQubitsResults3 = MultiM(outputQubits);
 				Message("");
 				Message("Testing the blackbox for input=1110");
-				for(i in 0..3){
+				for i in 0..3{
 						Message($"{outputQubitsResults3[i]}");
 				}
 				ResetAll(outputQubits);
@@ -106,7 +106,7 @@
 				let outputQubitsResults4 = MultiM(outputQubits);
 				Message("");
 				Message("Testing the blackbox for input=0100");
-				for(i in 0..3){
+				for i in 0..3{
 						Message($"{outputQubitsResults4[i]}");
 				}
 				ResetAll(outputQubits);
@@ -114,9 +114,9 @@
 
 				ResetAll(outputQubits);
 				ResetAll(inputQubits);
-			}
 			
-		}
+			
+		
     }
 
 	//This will create a 1-1 function and s=0000
