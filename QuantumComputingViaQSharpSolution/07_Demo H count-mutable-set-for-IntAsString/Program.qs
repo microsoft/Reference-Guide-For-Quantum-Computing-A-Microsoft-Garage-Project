@@ -6,7 +6,7 @@
 
     
     @EntryPoint()
-    operation HelloQ () : Unit {
+    operation Demo_H_count_mutable_set_for_IntAsString () : Unit {
 
              // Unlike let, variables declared as mutable can be modified later.
 			// Data type is infered during initialization. Her it is Int.
