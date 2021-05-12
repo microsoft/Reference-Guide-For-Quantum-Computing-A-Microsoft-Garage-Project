@@ -1,55 +1,50 @@
-﻿namespace _26_Demo_Deutsch_Jozsa_algorithm_New {
+﻿namespace Quantum._26_Demo_Deutsch_Jozsa_algorithm {
 
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Measurement;
-    open Microsoft.Quantum.Convert as Convert;
+    open Microsoft.Quantum.Convert;
     
-    // Circuit:
-	// https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deutsch-Jozsa_Algorithm.svg/800px-Deutsch-Jozsa_Algorithm.svg.png
     @EntryPoint()
-    operation HelloQ() : Unit {
-       using(inputQubits = Qubit[3])
+    operation HelloQ () : Unit {
+        
+        use inputQubits = Qubit[3];
+        // Apply H on all the input Qubits
+        ApplyToEach(H, inputQubits);
+        
+        use outputQubit = Qubit();
+        // Creating |->
+        X(outputQubit);
+        H(outputQubit);
+
+        // Applying the relevant black box;
+        BlackBoxConstant0(inputQubits, outputQubit);
+        // BlackBoxConstant1(inputQubits, outputQubit);
+        // BlackBoxBalanced1(inputQubits, outputQubit);
+        // BlackBoxBalanced2(inputQubits, outputQubit);
+        
+        // Apply H on all input Qubits
+        ApplyToEach(H, inputQubits);
+
+        let results = MultiM(inputQubits);
+        let resultAsInt = ResultArrayAsInt(results);
+
+        // For all Constant blackboxes, the probability of getting |000> is 1
+        if(resultAsInt == 0)
         {
-            // Apply H on all the input Qubits
-            ApplyToEach(H, inputQubits);
-            using(outputQubit = Qubit())
-            {
-                // Creating |->
-                X(outputQubit);
-                H(outputQubit);
-
-                // Applying the relevant black box;
-                BlackBoxConstant0(inputQubits, outputQubit);
-                // BlackBoxConstant1(inputQubits, outputQubit);
-                // BlackBoxBalanced1(inputQubits, outputQubit);
-                // BlackBoxBalanced2(inputQubits, outputQubit);
-
-                // Apply H on all input Qubits
-                ApplyToEach(H, inputQubits);
-
-                let results = MultiM(inputQubits);
-                let resultAsInt = Convert.ResultArrayAsInt(results);
-
-                // For all Constant blackboxes, the probability of getting |000> is 1
-                if(resultAsInt == 0)
-                {
-                    Message("Constant");
-                }
-                // For all Balanced blackboxes, the probability of getting |000> is 0
-                else
-                {
-                    Message("Balanced");
-                }
-
-                Reset(outputQubit);
-            }
-
-            ResetAll(inputQubits);
+            Message("Constant");
         }
+        // For all Balanced blackboxes, the probability of getting |000> is 0
+        else
+        {
+            Message("Balanced");
+        }
+
+        Reset(outputQubit);
+        ResetAll(inputQubits);
     }
 
-	// Don't perform anything here.
+    // Don't perform anything here.
 	operation BlackBoxConstant0(inputQubits: Qubit[], outputQubit: Qubit) : Unit
 	{
 	}
@@ -133,4 +128,3 @@
 		
 	}
 }
-
