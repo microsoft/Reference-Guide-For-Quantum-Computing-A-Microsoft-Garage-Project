@@ -5,15 +5,15 @@
 	open Microsoft.Quantum.Measurement;
 	open Microsoft.Quantum.Convert;
 	open Microsoft.Quantum.Arrays;
+
     
     @EntryPoint()
     operation Demo_Entanglement () : Unit {
-        
-			mutable iterations = 20;
+        mutable iterations = 20;
 
-			using(qubits = Qubit[2])
+			use qubits = Qubit[2]
 			{
-				for(i in 1..iterations)
+				for i in 1..iterations
 				{
 					H(qubits[0]);
 					CNOT(qubits[0],qubits[1]);
@@ -27,6 +27,5 @@
 					ResetAll(qubits);
 				}
 			}
-
     }
 }
