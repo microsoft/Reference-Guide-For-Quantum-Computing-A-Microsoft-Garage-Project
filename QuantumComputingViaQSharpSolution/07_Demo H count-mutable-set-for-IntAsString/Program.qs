@@ -1,22 +1,22 @@
 ﻿namespace Quantum._07_Demo_H_count_mutable_set_for_IntAsString {
 
-    open Microsoft.Quantum.Canon;
+     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
 	open Microsoft.Quantum.Convert;
 
     
     @EntryPoint()
-    operation Demo_H_count_mutable_set_for_IntAsString () : Unit {
+    operation HelloQ () : Unit {
 
-			//Unlike let, variables declared as mutable can be modified later.
+             // Unlike let, variables declared as mutable can be modified later.
 			// Data type is infered during initialization. Her it is Int.
 			mutable countZeroes = 0;
 			mutable countOnes = 0;
 
 			//Running the for loop for 1000 times
-			for(iter in 1..1000)
+			for iter in 1..1000
 			{
-				using(qubits = Qubit[1])
+				use qubits = Qubit[1]
 				{
 					// Applying Hadamard on the qubit
 					H(qubits[0]);
