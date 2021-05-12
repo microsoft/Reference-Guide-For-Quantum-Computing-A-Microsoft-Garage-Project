@@ -1,4 +1,4 @@
-﻿namespace _16_Demo_bool_result_int_conversions {
+﻿namespace Quantum._16_Demo_bool_result_int_conversions {
 
     open Microsoft.Quantum.Arrays;
     open Microsoft.Quantum.Canon;
@@ -6,10 +6,9 @@
     open Microsoft.Quantum.Measurement;
     open Microsoft.Quantum.Convert as Convert;
     
-
     @EntryPoint()
-    operation HelloQ() : Unit {
-        using(qubits = Qubit[2])
+    operation Demo_Bool_Result_Int_Conversions () : Unit {
+        use qubits = Qubit[2]
         {
             
             let result = M(qubits[0]);
@@ -23,7 +22,7 @@
             // ResultArrayAsBoolArray demo.
             Message("ResultArrayAsBoolArray demo");
             let boolArr = Convert.ResultArrayAsBoolArray(resultArr);
-            for(i in IndexRange(boolArr))
+            for i in IndexRange(boolArr)
             {
                 Message(Convert.BoolAsString(boolArr[i]));
             }
@@ -85,4 +84,3 @@
         }
     }
 }
-
