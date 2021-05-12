@@ -10,7 +10,7 @@
 
     
     @EntryPoint()
-    operation HelloQ () : Unit {
+    operation Demo_Array_Functions () : Unit {
         // Arrays start from 0th index.
         mutable arr = [10, 11, 36, 49];
         for i in IndexRange(arr)

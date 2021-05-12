@@ -5,7 +5,7 @@
     open Microsoft.Quantum.Convert as Convert;
     
     @EntryPoint()
-    operation HelloQ () : Unit {
+    operation Demo_ResultAsBool_BoolAsString () : Unit {
         use qubit = Qubit();
         X(qubit);
         let result = M(qubit);
