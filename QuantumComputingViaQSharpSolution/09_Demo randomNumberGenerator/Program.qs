@@ -7,16 +7,16 @@
     open Microsoft.Quantum.Intrinsic;
     
     operation RandomNumberGenerator() : Result {
-        using (q = Qubit())  {  
+        use qubit = Qubit();
             
-            return MResetX(q);
-        }
+        return MResetX(qubit);
+        
     }
 
     operation RandomNumberInRange(max : Int) : Int {
         mutable bits = new Result[0];
 
-        for (idxBit in 1..BitSizeI(max)) {
+        for idxBit in 1..BitSizeI(max) {
             
             set bits += [RandomNumberGenerator()];
         

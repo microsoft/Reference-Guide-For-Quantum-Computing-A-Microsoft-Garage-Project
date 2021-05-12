@@ -7,13 +7,13 @@
     @EntryPoint()
     operation Demo_X_Reset () : Unit {
 				
-		using(qubits = Qubit[1])
-			{
+		use qubit = Qubit();
+			
 				//Applying X will reverse the value.
-				X(qubits[0]);
+				X(qubit);
 
 				// Measure the value of Qubit
-				let r = M(qubits[0]);
+				let r = M(qubit);
 
 				if(r == Zero)
 				{
@@ -26,8 +26,8 @@
 				}
 				
 				// At the end of using, we need to Reset all the qubits to Zero
-				Reset(qubits[0]);
+				Reset(qubit);
 				
-			}
+			
     }
 }
