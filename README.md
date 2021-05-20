@@ -132,7 +132,7 @@ computers, also called logic gates as they are in classical computers.
 
 We don't often hear about NMR quantum computers today, because even then, physicists knew
 that the technique had its limits. The techniques relied on special workarounds such that each additional
-qubit would make it harder to pick the signal out of the background noise, unable to not scale beyond a
+qubit would make it harder to pick the signal out of the background noise, unable to scale beyond a
 few qubits. Despite notable shortcomings, the experiments gave the field the credibility needed to prove
 quantum computing hardware viability and pave the way for research and development investments in a
 hardware of the future for quantum computing.
